@@ -1,0 +1,14 @@
+<Context path="/Pickle" reloadable="true" docBase="Pickle">
+	<Resource 
+		name="jdbc/pickle" 
+		auth="Container" 
+		type="javax.sql.DataSource" 
+		maxActive="100"
+		maxIdle="30" 
+		maxWait="10000" 
+		validationQuery="select 1"
+		username="root" 
+		password="zgr8team" 
+		driverClassName="com.mysql.jdbc.Driver" 
+		url="jdbc:mysql://localhost:3306/pickle?autoReconnect=true"/>
+</Context>
